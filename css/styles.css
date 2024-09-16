@@ -29,42 +29,25 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #030303;
   background-image: linear-gradient(305deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(298deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(268deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(298deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(460deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%,rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%),linear-gradient(279deg, rgb(27, 27, 27),rgb(1, 1, 1));
   z-index: 99;
 }
 
-.nav__content {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 1.5rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-nav .logo a {
+
+nav a .logo {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--primary-color);
   transition: 0.3s;
 }
-nav .logo a:hover {
+nav a .logo:hover {
   color: var(--primary-color-dark);
 }
 
-nav .checkbox {
-  display: none;
-}
 
-nav input {
-  display: none;
-}
-nav .checkbox i {
-  font-size: 2rem;
-  color: var(--primary-color);
-  cursor: pointer;
-}
+
+
 
 ul {
   display: flex;
@@ -90,7 +73,7 @@ ul li a:hover {
 }
 
 .section {
-  background-image: linear-gradient(305deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(298deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(268deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(298deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(460deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%,rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%),linear-gradient(279deg, rgb(27, 27, 27),rgb(1, 1, 1));
+  background-color: #030303;
 }
 
 .section__container {
@@ -190,35 +173,12 @@ ul li a:hover {
   
 }
 
-.socials {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  margin-top: 5vh;
-}
-
-.socials .line {
-  background-color: var(--primary-color);
-  height: 25vh;
-  width: 2.5px;
-}
-
-.socials i {
-  color: #080707;
-  font-size: 36px;
-}
 .about {
+  margin-top: auto;
   font-size: 56px;
   font-weight: 700;
-  color: #060505;
+  color: #f7f6f6;
   font-family: "Libre Baskerville", serif;
-}
-.line {
-  height: 2.5px;
-  width: 150px;
-  background-color: #a855f7;
-  margin-right: 32px;
 }
 .section__container2 {
   margin: auto;
@@ -227,12 +187,16 @@ ul li a:hover {
   place-items: center;
 }
 
-#skill {
+/* #skill {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 50px 100px;
+} */
+
+.wrapper{
+  background-color: #060505;
 }
 
 .Skill  {
@@ -242,13 +206,6 @@ ul li a:hover {
   font-family: "Libre Baskerville", serif;
   margin-top: 60px;
 }
-.line1 {
-  height: 2.5px;
-  width: 100px;
-  background-color: #a855f7;
-  margin-right: 32px;
-}
-
 .cards {
   display: flex;
   align-items: center;
@@ -277,16 +234,8 @@ ul li a:hover {
   width: 7.5vw;
   object-fit: contain;
 }
-.skill-card h2 {
-  font-size: 14px;
-  font-weight: 400;
-  color: #030303;
-}
 .skill-card:hover {
   background-color: #fffefe;
-}
-.skill-card:hover h2 {
-  color: #080707;
 }
 
 .section__container3 {
@@ -472,17 +421,17 @@ ul li a:hover {
   color:#fff;
 }
 
-@media screen and (max-width: 750px) {
-  nav .nav__content{
-    background-color: #030303;
+@media only screen and (max-width: 750px) {
+  /* nav .nav__content{
+    background-color: #7a8bd8;
   }
 
   nav .checkbox {
     display: block;
     background-color: #030303;
-  }
+  } */
 
-  ul {
+  /* ul {
     position: absolute;
     width: 100%;
     height: calc(100vh - 85px);
@@ -500,7 +449,10 @@ ul li a:hover {
 
   ul li a {
     font-size: 1.25rem;
-  }
+  } */
+/* .section__container4 {
+  margin-bottom: 100px;
+} */
 
   .section__container {
     padding: 10rem 1rem 5rem 1rem;
